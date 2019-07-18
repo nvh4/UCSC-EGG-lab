@@ -85,6 +85,9 @@ crosses a set percentage of the maximum amplitude (Henrich et al. 2004; Herbst e
 as the analyst must make a choice of what threshold to use to determine that closure has taken place,
 and this decision is somewhat arbitrary.
 
+Examples of thresholding from Herbst et al. (2017):
+![herbst threshold](https://github.com/nvh4/UCSC-EGG-lab/blob/master/herbst_thresholds.png)
+
 An alternative is to identify the closing and opening moments from the positive and negative peaks
 in the derivative of the EGG signal (DEGG). This method is advantageous because there is usually one
 clear positive and negative peak for each period in the DEGG signal, so the researcher does not need
@@ -93,9 +96,17 @@ closely correlated with measurements of glottal airflow (Henrich et al. 2004) an
 endoscopy (Herbst et al. 2017). However, use of peaks in the DEGG signal may be misleading, as
 contacting and de-contacting should not be thought of as single moments in time (Herbst et al. 2014).
 
+Example of identifying DEGG peaks from Herbst et al. (2017):
+
+![herbst degg](https://github.com/nvh4/UCSC-EGG-lab/blob/master/herbst_degg.png)
+
 A downside to the DEGG signal is that there may be multiple opening peaks (Herbst, Fitch, and Švec 2010). In this case,
 a hybrid method should be used: closure is determined from the positive peak in the DEGG signal, while
 opening is based on a threshold. The typical threshold for the hybrid method is 3/7 (Kuang and Keating 2012; Herbst et al. 2017).
+
+Example of hybrid method from Herbst et al. (2017):
+
+![herbst hybrid](https://github.com/nvh4/UCSC-EGG-lab/blob/master/herbst_hybrid.png)
 
 CQ is extremely useful in the investigation of phonation types, since it provides an index of the degree
 of glottal constriction. Tense / creaky / laryngealized registers tend to have higher CQs, while breathy
@@ -116,13 +127,16 @@ Examples of EGG (top) and DEGG signals (bottom) from DiCanio 2008:
 
 #### Speed Quotient (SQ)
 
-Speed Quotient (SQ) is the ratio of closure duration and opening duration (Kuang and Keating 2012 and references therein).
+Speed Quotient (SQ) is the ratio of closing duration and opening duration (Kuang and Keating 2012 and references therein).
 This measure is a way of describing the symmetry of the glottal pulse, which may relate to phonation: creaky
-voice should have a lower SQ, indicating a skewed pulse due to shorter closure duration, while breathy voice should
-have an SQ closer to 1, reflecting similar closure and open durations. However, SQ is reported to not
+voice should have a lower SQ, indicating a skewed pulse due to shorter closing duration, while breathy voice should
+have an SQ closer to 1, reflecting similar closing and opening durations. However, SQ is reported to not
 vary with phonation as reliably as CQ (Kuang and Keating 2012), and impressionistically, this measure is not used
 nearly as much as the others discussed here.
 
+Example of Speed Quotient from Kuang and Keating (2012):
+
+![kuang sq](https://github.com/nvh4/UCSC-EGG-lab/blob/master/kuang_sq.png)
 
 #### Derivative-EGG Closure Peak Amplitude (DECPA) / Peak Increase in Contact (PIC)
 
@@ -137,6 +151,8 @@ This places limitations on comparisons across speakers and recording sessions. A
 this has been discussed with respect to DECPA, the position of the larynx relative to the electrodes may
 also shift during a recording session, which may affect the strength of the signal and raises further
 questions about the reliability of DECPA.
+
+![kuang pic](https://github.com/nvh4/UCSC-EGG-lab/blob/master/kuang_pic.png)
 
 #### Vertical Larynx Position
 
