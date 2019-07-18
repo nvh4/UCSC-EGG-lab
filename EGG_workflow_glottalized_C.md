@@ -2,7 +2,7 @@
 
 1. Make two-channel EGG recordings
 
-2. Use prepare_audio_for_annotation.py to extract and filter the audio channel (=channel 1) so that it's easier to label words.
+2. Use [prepare_audio_for_annotation.py](https://github.com/rbennett24/UCSC-EGG-lab/blob/master/Praat_scripts/prepare_audio_for_annotation.py) to extract and filter the audio channel (=channel 1) so that it's easier to label words.
 
 3. Annotate and label target words [RTB]
 
@@ -14,9 +14,9 @@
 
  * Code stops for whether they are implosive vs. ejective? [Undergraduates]
 
-6. Using TextGrids finalized in (5), run EGG_audio_signal_processing.praat on the original audio files recorded in (1) (or whatever their recombined structure looks like)
+6. Using TextGrids finalized in (5), run [EGG_audio_signal_processing.praat](https://github.com/rbennett24/UCSC-EGG-lab/blob/master/Praat_scripts/EGG_audio_signal_processing.praat) on the original audio files recorded in (1) (or whatever their recombined structure looks like)
 
-7. Use mark_EGG_extrema.praat to place EGG extrema on TextGrids, and mark_stop_releases.praat to add stop releases to stop intervals.
+7. Use [mark_EGG_extrema.praat](https://github.com/rbennett24/UCSC-EGG-lab/blob/master/Praat_scripts/mark_EGG_extrema.praat) to place EGG extrema on TextGrids, and [mark_stop_releases.praat](https://github.com/rbennett24/UCSC-EGG-lab/blob/master/Praat_scripts/mark_stop_releases.praat) to add stop releases to stop intervals.
 
  * mark_EGG_extrema.praat should probably be changed so that it looks for extrema in the *derivative* of the signal instead, much like mark_stop_releases.praat does.
 
